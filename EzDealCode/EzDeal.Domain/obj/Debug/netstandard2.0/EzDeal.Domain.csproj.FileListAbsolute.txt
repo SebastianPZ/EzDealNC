@@ -1,0 +1,9 @@
+C:\Users\sebas\Desktop\EzDealCode\EzDeal.Domain\bin\Debug\netstandard2.0\EzDeal.Domain.deps.json
+C:\Users\sebas\Desktop\EzDealCode\EzDeal.Domain\bin\Debug\netstandard2.0\EzDeal.Domain.dll
+C:\Users\sebas\Desktop\EzDealCode\EzDeal.Domain\bin\Debug\netstandard2.0\EzDeal.Domain.pdb
+C:\Users\sebas\Desktop\EzDealCode\EzDeal.Domain\obj\Debug\netstandard2.0\EzDeal.Domain.csprojAssemblyReference.cache
+C:\Users\sebas\Desktop\EzDealCode\EzDeal.Domain\obj\Debug\netstandard2.0\EzDeal.Domain.csproj.CoreCompileInputs.cache
+C:\Users\sebas\Desktop\EzDealCode\EzDeal.Domain\obj\Debug\netstandard2.0\EzDeal.Domain.AssemblyInfoInputs.cache
+C:\Users\sebas\Desktop\EzDealCode\EzDeal.Domain\obj\Debug\netstandard2.0\EzDeal.Domain.AssemblyInfo.cs
+C:\Users\sebas\Desktop\EzDealCode\EzDeal.Domain\obj\Debug\netstandard2.0\EzDeal.Domain.dll
+C:\Users\sebas\Desktop\EzDealCode\EzDeal.Domain\obj\Debug\netstandard2.0\EzDeal.Domain.pdb
