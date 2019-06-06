@@ -12,3 +12,17 @@ C:\Users\sebas\Desktop\EzDealCode\EzDeal.Service\obj\Debug\netstandard2.0\EzDeal
 C:\Users\sebas\Desktop\EzDealCode\EzDeal.Service\obj\Debug\netstandard2.0\EzDeal.Service.csproj.CopyComplete
 C:\Users\sebas\Desktop\EzDealCode\EzDeal.Service\obj\Debug\netstandard2.0\EzDeal.Service.dll
 C:\Users\sebas\Desktop\EzDealCode\EzDeal.Service\obj\Debug\netstandard2.0\EzDeal.Service.pdb
+C:\Users\sebas\Desktop\EzDealNC\EzDealCode\EzDeal.Service\bin\Debug\netstandard2.0\EzDeal.Service.deps.json
+C:\Users\sebas\Desktop\EzDealNC\EzDealCode\EzDeal.Service\bin\Debug\netstandard2.0\EzDeal.Service.dll
+C:\Users\sebas\Desktop\EzDealNC\EzDealCode\EzDeal.Service\bin\Debug\netstandard2.0\EzDeal.Service.pdb
+C:\Users\sebas\Desktop\EzDealNC\EzDealCode\EzDeal.Service\bin\Debug\netstandard2.0\EzDeal.Domain.dll
+C:\Users\sebas\Desktop\EzDealNC\EzDealCode\EzDeal.Service\bin\Debug\netstandard2.0\EzDeal.Repository.dll
+C:\Users\sebas\Desktop\EzDealNC\EzDealCode\EzDeal.Service\bin\Debug\netstandard2.0\EzDeal.Repository.pdb
+C:\Users\sebas\Desktop\EzDealNC\EzDealCode\EzDeal.Service\bin\Debug\netstandard2.0\EzDeal.Domain.pdb
+C:\Users\sebas\Desktop\EzDealNC\EzDealCode\EzDeal.Service\obj\Debug\netstandard2.0\EzDeal.Service.csprojAssemblyReference.cache
+C:\Users\sebas\Desktop\EzDealNC\EzDealCode\EzDeal.Service\obj\Debug\netstandard2.0\EzDeal.Service.csproj.CoreCompileInputs.cache
+C:\Users\sebas\Desktop\EzDealNC\EzDealCode\EzDeal.Service\obj\Debug\netstandard2.0\EzDeal.Service.AssemblyInfoInputs.cache
+C:\Users\sebas\Desktop\EzDealNC\EzDealCode\EzDeal.Service\obj\Debug\netstandard2.0\EzDeal.Service.AssemblyInfo.cs
+C:\Users\sebas\Desktop\EzDealNC\EzDealCode\EzDeal.Service\obj\Debug\netstandard2.0\EzDeal.Service.csproj.CopyComplete
+C:\Users\sebas\Desktop\EzDealNC\EzDealCode\EzDeal.Service\obj\Debug\netstandard2.0\EzDeal.Service.dll
+C:\Users\sebas\Desktop\EzDealNC\EzDealCode\EzDeal.Service\obj\Debug\netstandard2.0\EzDeal.Service.pdb
