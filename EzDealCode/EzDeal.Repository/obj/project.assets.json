@@ -201,11 +201,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\5TO CICLO\\APLICACIONES WEB\\EzDealCode\\EzDealNC\\EzDealCode\\EzDeal.Repository\\EzDeal.Repository.csproj",
+      "projectUniqueName": "D:\\5TO CICLO\\APLICACIONES WEB\\EzDealCode\\EzDealNC\\EzDealCode\\EzDeal.Repository\\EzDeal.Repository.csproj",
       "projectName": "EzDeal.Repository",
-      "projectPath": "d:\\5TO CICLO\\APLICACIONES WEB\\EzDealCode\\EzDealNC\\EzDealCode\\EzDeal.Repository\\EzDeal.Repository.csproj",
+      "projectPath": "D:\\5TO CICLO\\APLICACIONES WEB\\EzDealCode\\EzDealNC\\EzDealCode\\EzDeal.Repository\\EzDeal.Repository.csproj",
       "packagesPath": "C:\\Users\\César Alejandro\\.nuget\\packages\\",
-      "outputPath": "d:\\5TO CICLO\\APLICACIONES WEB\\EzDealCode\\EzDealNC\\EzDealCode\\EzDeal.Repository\\obj\\",
+      "outputPath": "D:\\5TO CICLO\\APLICACIONES WEB\\EzDealCode\\EzDealNC\\EzDealCode\\EzDeal.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -224,8 +224,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "d:\\5TO CICLO\\APLICACIONES WEB\\EzDealCode\\EzDealNC\\EzDealCode\\EzDeal.Domain\\EzDeal.Domain.csproj": {
-              "projectPath": "d:\\5TO CICLO\\APLICACIONES WEB\\EzDealCode\\EzDealNC\\EzDealCode\\EzDeal.Domain\\EzDeal.Domain.csproj"
+            "D:\\5TO CICLO\\APLICACIONES WEB\\EzDealCode\\EzDealNC\\EzDealCode\\EzDeal.Domain\\EzDeal.Domain.csproj": {
+              "projectPath": "D:\\5TO CICLO\\APLICACIONES WEB\\EzDealCode\\EzDealNC\\EzDealCode\\EzDeal.Domain\\EzDeal.Domain.csproj"
             }
           }
         }

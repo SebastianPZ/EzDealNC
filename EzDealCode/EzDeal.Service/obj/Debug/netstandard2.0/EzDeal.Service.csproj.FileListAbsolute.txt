@@ -26,3 +26,5 @@ C:\Users\sebas\Desktop\EzDealNC\EzDealCode\EzDeal.Service\obj\Debug\netstandard2
 C:\Users\sebas\Desktop\EzDealNC\EzDealCode\EzDeal.Service\obj\Debug\netstandard2.0\EzDeal.Service.csproj.CopyComplete
 C:\Users\sebas\Desktop\EzDealNC\EzDealCode\EzDeal.Service\obj\Debug\netstandard2.0\EzDeal.Service.dll
 C:\Users\sebas\Desktop\EzDealNC\EzDealCode\EzDeal.Service\obj\Debug\netstandard2.0\EzDeal.Service.pdb
+D:\5TO CICLO\APLICACIONES WEB\EzDealCode\EzDealNC\EzDealCode\EzDeal.Service\obj\Debug\netstandard2.0\EzDeal.Service.dll
+D:\5TO CICLO\APLICACIONES WEB\EzDealCode\EzDealNC\EzDealCode\EzDeal.Service\obj\Debug\netstandard2.0\EzDeal.Service.pdb

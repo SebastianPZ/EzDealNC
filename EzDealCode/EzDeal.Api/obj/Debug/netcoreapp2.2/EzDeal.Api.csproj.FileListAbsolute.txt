@@ -40,3 +40,5 @@ C:\Users\sebas\Desktop\EzDealNC\EzDealCode\EzDeal.Api\obj\Debug\netcoreapp2.2\Ez
 C:\Users\sebas\Desktop\EzDealNC\EzDealCode\EzDeal.Api\obj\Debug\netcoreapp2.2\EzDeal.Api.csproj.CopyComplete
 C:\Users\sebas\Desktop\EzDealNC\EzDealCode\EzDeal.Api\obj\Debug\netcoreapp2.2\EzDeal.Api.dll
 C:\Users\sebas\Desktop\EzDealNC\EzDealCode\EzDeal.Api\obj\Debug\netcoreapp2.2\EzDeal.Api.pdb
+D:\5TO CICLO\APLICACIONES WEB\EzDealCode\EzDealNC\EzDealCode\EzDeal.Api\obj\Debug\netcoreapp2.2\EzDeal.Api.dll
+D:\5TO CICLO\APLICACIONES WEB\EzDealCode\EzDealNC\EzDealCode\EzDeal.Api\obj\Debug\netcoreapp2.2\EzDeal.Api.pdb

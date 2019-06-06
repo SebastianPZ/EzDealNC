@@ -22,3 +22,9 @@ C:\Users\sebas\Desktop\EzDealNC\EzDealCode\EzDeal.Repository\obj\Debug\netstanda
 C:\Users\sebas\Desktop\EzDealNC\EzDealCode\EzDeal.Repository\obj\Debug\netstandard2.0\EzDeal.Repository.csproj.CopyComplete
 C:\Users\sebas\Desktop\EzDealNC\EzDealCode\EzDeal.Repository\obj\Debug\netstandard2.0\EzDeal.Repository.dll
 C:\Users\sebas\Desktop\EzDealNC\EzDealCode\EzDeal.Repository\obj\Debug\netstandard2.0\EzDeal.Repository.pdb
+D:\5TO CICLO\APLICACIONES WEB\EzDealCode\EzDealNC\EzDealCode\EzDeal.Repository\obj\Debug\netstandard2.0\EzDeal.Repository.csprojAssemblyReference.cache
+D:\5TO CICLO\APLICACIONES WEB\EzDealCode\EzDealNC\EzDealCode\EzDeal.Repository\obj\Debug\netstandard2.0\EzDeal.Repository.csproj.CoreCompileInputs.cache
+D:\5TO CICLO\APLICACIONES WEB\EzDealCode\EzDealNC\EzDealCode\EzDeal.Repository\obj\Debug\netstandard2.0\EzDeal.Repository.AssemblyInfoInputs.cache
+D:\5TO CICLO\APLICACIONES WEB\EzDealCode\EzDealNC\EzDealCode\EzDeal.Repository\obj\Debug\netstandard2.0\EzDeal.Repository.AssemblyInfo.cs
+D:\5TO CICLO\APLICACIONES WEB\EzDealCode\EzDealNC\EzDealCode\EzDeal.Repository\obj\Debug\netstandard2.0\EzDeal.Repository.dll
+D:\5TO CICLO\APLICACIONES WEB\EzDealCode\EzDealNC\EzDealCode\EzDeal.Repository\obj\Debug\netstandard2.0\EzDeal.Repository.pdb
