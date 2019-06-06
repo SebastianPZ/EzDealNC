@@ -179,23 +179,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sebas\\.nuget\\packages\\": {},
+    "C:\\Users\\César Alejandro\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\sebas\\Desktop\\EzDealNC\\EzDealCode\\EzDeal.Domain\\EzDeal.Domain.csproj",
+      "projectUniqueName": "d:\\5TO CICLO\\APLICACIONES WEB\\EzDealCode\\EzDealNC\\EzDealCode\\EzDeal.Domain\\EzDeal.Domain.csproj",
       "projectName": "EzDeal.Domain",
-      "projectPath": "c:\\Users\\sebas\\Desktop\\EzDealNC\\EzDealCode\\EzDeal.Domain\\EzDeal.Domain.csproj",
-      "packagesPath": "C:\\Users\\sebas\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\sebas\\Desktop\\EzDealNC\\EzDealCode\\EzDeal.Domain\\obj\\",
+      "projectPath": "d:\\5TO CICLO\\APLICACIONES WEB\\EzDealCode\\EzDealNC\\EzDealCode\\EzDeal.Domain\\EzDeal.Domain.csproj",
+      "packagesPath": "C:\\Users\\César Alejandro\\.nuget\\packages\\",
+      "outputPath": "d:\\5TO CICLO\\APLICACIONES WEB\\EzDealCode\\EzDealNC\\EzDealCode\\EzDeal.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\sebas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\César Alejandro\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
