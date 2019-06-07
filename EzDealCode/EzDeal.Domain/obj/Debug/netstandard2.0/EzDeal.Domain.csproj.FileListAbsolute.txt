@@ -16,3 +16,12 @@ C:\Users\sebas\Desktop\EzDealNC\EzDealCode\EzDeal.Domain\obj\Debug\netstandard2.
 C:\Users\sebas\Desktop\EzDealNC\EzDealCode\EzDeal.Domain\obj\Debug\netstandard2.0\EzDeal.Domain.AssemblyInfo.cs
 C:\Users\sebas\Desktop\EzDealNC\EzDealCode\EzDeal.Domain\obj\Debug\netstandard2.0\EzDeal.Domain.dll
 C:\Users\sebas\Desktop\EzDealNC\EzDealCode\EzDeal.Domain\obj\Debug\netstandard2.0\EzDeal.Domain.pdb
+E:\EzDealNC\EzDealCode\EzDeal.Domain\bin\Debug\netstandard2.0\EzDeal.Domain.deps.json
+E:\EzDealNC\EzDealCode\EzDeal.Domain\bin\Debug\netstandard2.0\EzDeal.Domain.dll
+E:\EzDealNC\EzDealCode\EzDeal.Domain\bin\Debug\netstandard2.0\EzDeal.Domain.pdb
+E:\EzDealNC\EzDealCode\EzDeal.Domain\obj\Debug\netstandard2.0\EzDeal.Domain.csprojAssemblyReference.cache
+E:\EzDealNC\EzDealCode\EzDeal.Domain\obj\Debug\netstandard2.0\EzDeal.Domain.csproj.CoreCompileInputs.cache
+E:\EzDealNC\EzDealCode\EzDeal.Domain\obj\Debug\netstandard2.0\EzDeal.Domain.AssemblyInfoInputs.cache
+E:\EzDealNC\EzDealCode\EzDeal.Domain\obj\Debug\netstandard2.0\EzDeal.Domain.AssemblyInfo.cs
+E:\EzDealNC\EzDealCode\EzDeal.Domain\obj\Debug\netstandard2.0\EzDeal.Domain.dll
+E:\EzDealNC\EzDealCode\EzDeal.Domain\obj\Debug\netstandard2.0\EzDeal.Domain.pdb

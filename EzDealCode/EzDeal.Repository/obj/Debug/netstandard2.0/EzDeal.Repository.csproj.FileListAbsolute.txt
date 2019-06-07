@@ -22,3 +22,15 @@ C:\Users\sebas\Desktop\EzDealNC\EzDealCode\EzDeal.Repository\obj\Debug\netstanda
 C:\Users\sebas\Desktop\EzDealNC\EzDealCode\EzDeal.Repository\obj\Debug\netstandard2.0\EzDeal.Repository.csproj.CopyComplete
 C:\Users\sebas\Desktop\EzDealNC\EzDealCode\EzDeal.Repository\obj\Debug\netstandard2.0\EzDeal.Repository.dll
 C:\Users\sebas\Desktop\EzDealNC\EzDealCode\EzDeal.Repository\obj\Debug\netstandard2.0\EzDeal.Repository.pdb
+E:\EzDealNC\EzDealCode\EzDeal.Repository\bin\Debug\netstandard2.0\EzDeal.Repository.deps.json
+E:\EzDealNC\EzDealCode\EzDeal.Repository\bin\Debug\netstandard2.0\EzDeal.Repository.dll
+E:\EzDealNC\EzDealCode\EzDeal.Repository\bin\Debug\netstandard2.0\EzDeal.Repository.pdb
+E:\EzDealNC\EzDealCode\EzDeal.Repository\bin\Debug\netstandard2.0\EzDeal.Domain.dll
+E:\EzDealNC\EzDealCode\EzDeal.Repository\bin\Debug\netstandard2.0\EzDeal.Domain.pdb
+E:\EzDealNC\EzDealCode\EzDeal.Repository\obj\Debug\netstandard2.0\EzDeal.Repository.csprojAssemblyReference.cache
+E:\EzDealNC\EzDealCode\EzDeal.Repository\obj\Debug\netstandard2.0\EzDeal.Repository.csproj.CoreCompileInputs.cache
+E:\EzDealNC\EzDealCode\EzDeal.Repository\obj\Debug\netstandard2.0\EzDeal.Repository.AssemblyInfoInputs.cache
+E:\EzDealNC\EzDealCode\EzDeal.Repository\obj\Debug\netstandard2.0\EzDeal.Repository.AssemblyInfo.cs
+E:\EzDealNC\EzDealCode\EzDeal.Repository\obj\Debug\netstandard2.0\EzDeal.Repository.csproj.CopyComplete
+E:\EzDealNC\EzDealCode\EzDeal.Repository\obj\Debug\netstandard2.0\EzDeal.Repository.dll
+E:\EzDealNC\EzDealCode\EzDeal.Repository\obj\Debug\netstandard2.0\EzDeal.Repository.pdb

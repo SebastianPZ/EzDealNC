@@ -3085,23 +3085,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sebas\\.nuget\\packages\\": {},
+    "C:\\Users\\Bryan\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\sebas\\Desktop\\EzDealNC\\EzDealCode\\EzDeal.Repository\\EzDeal.Repository.csproj",
+      "projectUniqueName": "E:\\EzDealNC\\EzDealCode\\EzDeal.Repository\\EzDeal.Repository.csproj",
       "projectName": "EzDeal.Repository",
-      "projectPath": "c:\\Users\\sebas\\Desktop\\EzDealNC\\EzDealCode\\EzDeal.Repository\\EzDeal.Repository.csproj",
-      "packagesPath": "C:\\Users\\sebas\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\sebas\\Desktop\\EzDealNC\\EzDealCode\\EzDeal.Repository\\obj\\",
+      "projectPath": "E:\\EzDealNC\\EzDealCode\\EzDeal.Repository\\EzDeal.Repository.csproj",
+      "packagesPath": "C:\\Users\\Bryan\\.nuget\\packages\\",
+      "outputPath": "E:\\EzDealNC\\EzDealCode\\EzDeal.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\sebas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Bryan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3114,8 +3114,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "c:\\Users\\sebas\\Desktop\\EzDealNC\\EzDealCode\\EzDeal.Domain\\EzDeal.Domain.csproj": {
-              "projectPath": "c:\\Users\\sebas\\Desktop\\EzDealNC\\EzDealCode\\EzDeal.Domain\\EzDeal.Domain.csproj"
+            "E:\\EzDealNC\\EzDealCode\\EzDeal.Domain\\EzDeal.Domain.csproj": {
+              "projectPath": "E:\\EzDealNC\\EzDealCode\\EzDeal.Domain\\EzDeal.Domain.csproj"
             }
           }
         }
