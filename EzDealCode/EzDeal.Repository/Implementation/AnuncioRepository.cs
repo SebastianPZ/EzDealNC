@@ -8,8 +8,15 @@ namespace EzDeal.Repository.Implementacion
 {
     public class AnuncioRepository : IAnuncioRepository
     {
-         public void Save(Anuncio entity){
 
+        private ApplicationDbContext context;
+
+         public AnuncioRepository(ApplicationDbContext context){
+           this.context = context;
+         }
+         public void Save(Anuncio entity){
+           context.AnuncioDb.Add(entity);
+           context.SaveChanges();
          }
          public void Update(Anuncio entity){
 
@@ -17,8 +24,19 @@ namespace EzDeal.Repository.Implementacion
          public void Delete(Anuncio entity){
 
          }
-         public List<Anuncio> FindAll(){
-           return null;
+         public IEnumerable<Anuncio> FindAll(){
+            var result = new List<Anuncio>();
+            try
+            {
+                result = context.AnuncioDb.ToList();
+            }
+
+            catch (System.Exception)
+            {
+
+                throw;
+            }
+            return result;
          }
          public Anuncio FindById(int id){
            return null;

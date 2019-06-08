@@ -7,7 +7,7 @@ namespace EzDeal.Repository
          void Save(T entity);
          void Update(T entity);
          void Delete(T entity);
-         List<T> FindAll();
+         IEnumerable<T> FindAll();
          T FindById(int id);
 
     }

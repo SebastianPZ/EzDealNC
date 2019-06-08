@@ -6,8 +6,15 @@ namespace EzDeal.Service.Implementacion
 {
     public class AnuncioService : IAnuncioService
     {
-        public bool  Save(Anuncio entity){
-             return true;
+
+       private IAnuncioRepository anuncioRepository;
+   
+     public AnuncioService(IAnuncioRepository anuncioRepository){
+        this.anuncioRepository = anuncioRepository;
+     }
+        public bool Save(Anuncio entity){
+              anuncioRepository.Save(entity);
+              return true;
         }
         public bool  Update(Anuncio entity){
              return true;
@@ -19,7 +26,7 @@ namespace EzDeal.Service.Implementacion
 
 
         public IEnumerable<Anuncio> GetAll(){
-             return null;
+             return anuncioRepository.FindAll();
         }
 
         public Anuncio Get(int id){
