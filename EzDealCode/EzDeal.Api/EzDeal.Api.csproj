@@ -10,5 +10,6 @@
   <ItemGroup>
     <ProjectReference Include="..\EzDeal.Domain\EzDeal.Domain.csproj"/>
     <ProjectReference Include="..\EzDeal.Service\EzDeal.Service.csproj"/>
+    
   </ItemGroup>
 </Project>

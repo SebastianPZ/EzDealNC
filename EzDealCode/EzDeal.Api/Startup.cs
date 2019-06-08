@@ -12,7 +12,10 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.EntityFrameworkCore;   
 using EzDeal.Repository.Context; 
-using EzDeal.Repository; 
+using EzDeal.Repository;
+using EzDeal.Repository.Implementacion; 
+using EzDeal.Service;
+using EzDeal.Service.Implementacion;
 
 namespace EzDeal.Api
 {
@@ -28,11 +31,17 @@ namespace EzDeal.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            //Para que se cree si el comando : dotnet ef --startup-project ../EzDeal.Api migrations add init
+            //Para que se cree sin el comando : dotnet ef --startup-project ../EzDeal.Api migrations add init
             string assemblyName = "EzDeal.Api";
         
             services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"),
             optionsBuilder => optionsBuilder.MigrationsAssembly(assemblyName)));
+
+            services.AddTransient<IAnuncioRepository, AnuncioRepository>();
+            services.AddTransient<IAnuncioService, AnuncioService>();
+
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+
             //services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             //services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
