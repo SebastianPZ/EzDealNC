@@ -12134,11 +12134,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\EzDealNC\\EzDealCode\\EzDeal.Api\\EzDeal.Api.csproj",
+      "projectUniqueName": "E:\\5to Ciclo\\Aplicaciones Web\\EzDealNC\\EzDealCode\\EzDeal.Api\\EzDeal.Api.csproj",
       "projectName": "EzDeal.Api",
-      "projectPath": "E:\\EzDealNC\\EzDealCode\\EzDeal.Api\\EzDeal.Api.csproj",
+      "projectPath": "E:\\5to Ciclo\\Aplicaciones Web\\EzDealNC\\EzDealCode\\EzDeal.Api\\EzDeal.Api.csproj",
       "packagesPath": "C:\\Users\\Bryan\\.nuget\\packages\\",
-      "outputPath": "E:\\EzDealNC\\EzDealCode\\EzDeal.Api\\obj\\",
+      "outputPath": "E:\\5to Ciclo\\Aplicaciones Web\\EzDealNC\\EzDealCode\\EzDeal.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12157,11 +12157,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "E:\\EzDealNC\\EzDealCode\\EzDeal.Domain\\EzDeal.Domain.csproj": {
-              "projectPath": "E:\\EzDealNC\\EzDealCode\\EzDeal.Domain\\EzDeal.Domain.csproj"
+            "E:\\5to Ciclo\\Aplicaciones Web\\EzDealNC\\EzDealCode\\EzDeal.Domain\\EzDeal.Domain.csproj": {
+              "projectPath": "E:\\5to Ciclo\\Aplicaciones Web\\EzDealNC\\EzDealCode\\EzDeal.Domain\\EzDeal.Domain.csproj"
             },
-            "E:\\EzDealNC\\EzDealCode\\EzDeal.Service\\EzDeal.Service.csproj": {
-              "projectPath": "E:\\EzDealNC\\EzDealCode\\EzDeal.Service\\EzDeal.Service.csproj"
+            "E:\\5to Ciclo\\Aplicaciones Web\\EzDealNC\\EzDealCode\\EzDeal.Service\\EzDeal.Service.csproj": {
+              "projectPath": "E:\\5to Ciclo\\Aplicaciones Web\\EzDealNC\\EzDealCode\\EzDeal.Service\\EzDeal.Service.csproj"
             }
           }
         }

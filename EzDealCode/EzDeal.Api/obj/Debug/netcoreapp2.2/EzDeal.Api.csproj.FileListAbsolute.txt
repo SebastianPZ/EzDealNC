@@ -61,3 +61,24 @@ E:\EzDealNC\EzDealCode\EzDeal.Api\bin\Debug\netcoreapp2.2\EzDeal.Service.pdb
 E:\EzDealNC\EzDealCode\EzDeal.Api\bin\Debug\netcoreapp2.2\EzDeal.Repository.pdb
 E:\EzDealNC\EzDealCode\EzDeal.Api\obj\Debug\netcoreapp2.2\EzDeal.Api.RazorTargetAssemblyInfo.cache
 E:\EzDealNC\EzDealCode\EzDeal.Api\obj\Debug\netcoreapp2.2\EzDeal.Api.csproj.CopyComplete
+E:\5to Ciclo\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Api\bin\Debug\netcoreapp2.2\EzDeal.Api.deps.json
+E:\5to Ciclo\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Api\bin\Debug\netcoreapp2.2\EzDeal.Api.runtimeconfig.json
+E:\5to Ciclo\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Api\bin\Debug\netcoreapp2.2\EzDeal.Api.runtimeconfig.dev.json
+E:\5to Ciclo\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Api\bin\Debug\netcoreapp2.2\EzDeal.Api.dll
+E:\5to Ciclo\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Api\bin\Debug\netcoreapp2.2\EzDeal.Api.pdb
+E:\5to Ciclo\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Api\bin\Debug\netcoreapp2.2\EzDeal.Domain.dll
+E:\5to Ciclo\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Api\bin\Debug\netcoreapp2.2\EzDeal.Repository.dll
+E:\5to Ciclo\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Api\bin\Debug\netcoreapp2.2\EzDeal.Service.dll
+E:\5to Ciclo\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Api\bin\Debug\netcoreapp2.2\EzDeal.Domain.pdb
+E:\5to Ciclo\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Api\bin\Debug\netcoreapp2.2\EzDeal.Service.pdb
+E:\5to Ciclo\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Api\bin\Debug\netcoreapp2.2\EzDeal.Repository.pdb
+E:\5to Ciclo\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Api\obj\Debug\netcoreapp2.2\EzDeal.Api.csprojAssemblyReference.cache
+E:\5to Ciclo\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Api\obj\Debug\netcoreapp2.2\EzDeal.Api.csproj.CoreCompileInputs.cache
+E:\5to Ciclo\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Api\obj\Debug\netcoreapp2.2\EzDeal.Api.RazorAssemblyInfo.cache
+E:\5to Ciclo\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Api\obj\Debug\netcoreapp2.2\EzDeal.Api.RazorAssemblyInfo.cs
+E:\5to Ciclo\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Api\obj\Debug\netcoreapp2.2\EzDeal.Api.AssemblyInfoInputs.cache
+E:\5to Ciclo\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Api\obj\Debug\netcoreapp2.2\EzDeal.Api.AssemblyInfo.cs
+E:\5to Ciclo\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Api\obj\Debug\netcoreapp2.2\EzDeal.Api.RazorTargetAssemblyInfo.cache
+E:\5to Ciclo\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Api\obj\Debug\netcoreapp2.2\EzDeal.Api.csproj.CopyComplete
+E:\5to Ciclo\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Api\obj\Debug\netcoreapp2.2\EzDeal.Api.dll
+E:\5to Ciclo\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Api\obj\Debug\netcoreapp2.2\EzDeal.Api.pdb

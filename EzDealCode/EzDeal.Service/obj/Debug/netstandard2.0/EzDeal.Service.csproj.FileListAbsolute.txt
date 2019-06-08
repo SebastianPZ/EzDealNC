@@ -40,3 +40,17 @@ E:\EzDealNC\EzDealCode\EzDeal.Service\obj\Debug\netstandard2.0\EzDeal.Service.As
 E:\EzDealNC\EzDealCode\EzDeal.Service\obj\Debug\netstandard2.0\EzDeal.Service.csproj.CopyComplete
 E:\EzDealNC\EzDealCode\EzDeal.Service\obj\Debug\netstandard2.0\EzDeal.Service.dll
 E:\EzDealNC\EzDealCode\EzDeal.Service\obj\Debug\netstandard2.0\EzDeal.Service.pdb
+E:\5to Ciclo\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Service\bin\Debug\netstandard2.0\EzDeal.Service.deps.json
+E:\5to Ciclo\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Service\bin\Debug\netstandard2.0\EzDeal.Service.dll
+E:\5to Ciclo\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Service\bin\Debug\netstandard2.0\EzDeal.Service.pdb
+E:\5to Ciclo\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Service\bin\Debug\netstandard2.0\EzDeal.Domain.dll
+E:\5to Ciclo\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Service\bin\Debug\netstandard2.0\EzDeal.Repository.dll
+E:\5to Ciclo\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Service\bin\Debug\netstandard2.0\EzDeal.Repository.pdb
+E:\5to Ciclo\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Service\bin\Debug\netstandard2.0\EzDeal.Domain.pdb
+E:\5to Ciclo\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Service\obj\Debug\netstandard2.0\EzDeal.Service.csprojAssemblyReference.cache
+E:\5to Ciclo\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Service\obj\Debug\netstandard2.0\EzDeal.Service.csproj.CoreCompileInputs.cache
+E:\5to Ciclo\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Service\obj\Debug\netstandard2.0\EzDeal.Service.AssemblyInfoInputs.cache
+E:\5to Ciclo\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Service\obj\Debug\netstandard2.0\EzDeal.Service.AssemblyInfo.cs
+E:\5to Ciclo\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Service\obj\Debug\netstandard2.0\EzDeal.Service.csproj.CopyComplete
+E:\5to Ciclo\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Service\obj\Debug\netstandard2.0\EzDeal.Service.dll
+E:\5to Ciclo\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Service\obj\Debug\netstandard2.0\EzDeal.Service.pdb

@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\EzDealNC\\EzDealCode\\EzDeal.Domain\\EzDeal.Domain.csproj",
+      "projectUniqueName": "E:\\5to Ciclo\\Aplicaciones Web\\EzDealNC\\EzDealCode\\EzDeal.Domain\\EzDeal.Domain.csproj",
       "projectName": "EzDeal.Domain",
-      "projectPath": "E:\\EzDealNC\\EzDealCode\\EzDeal.Domain\\EzDeal.Domain.csproj",
+      "projectPath": "E:\\5to Ciclo\\Aplicaciones Web\\EzDealNC\\EzDealCode\\EzDeal.Domain\\EzDeal.Domain.csproj",
       "packagesPath": "C:\\Users\\Bryan\\.nuget\\packages\\",
-      "outputPath": "E:\\EzDealNC\\EzDealCode\\EzDeal.Domain\\obj\\",
+      "outputPath": "E:\\5to Ciclo\\Aplicaciones Web\\EzDealNC\\EzDealCode\\EzDeal.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
