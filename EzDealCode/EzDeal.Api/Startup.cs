@@ -16,6 +16,7 @@ using EzDeal.Repository;
 using EzDeal.Repository.Implementacion; 
 using EzDeal.Service;
 using EzDeal.Service.Implementacion;
+using Swashbuckle.AspNetCore.Swagger;
 
 namespace EzDeal.Api
 {
@@ -40,7 +41,41 @@ namespace EzDeal.Api
             services.AddTransient<IAnuncioRepository, AnuncioRepository>();
             services.AddTransient<IAnuncioService, AnuncioService>();
 
+            services.AddTransient<IReseñaRepository, ReseñaRepository>();
+            services.AddTransient<IReseñaService, ReseñaService>();
+
+            services.AddTransient<IServicioRepository, ServicioRepository>();
+            services.AddTransient<IServicioService, ServicioService>();
+
+            services.AddTransient<ISolicitudRepository, SolicitudRepository>();
+            services.AddTransient<ISolicitudService, SolicitudService>();
+
+            services.AddTransient<IUsuarioRepository, UsuarioRepository>();
+            services.AddTransient<IUsuarioService, UsuarioService>();
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+
+            services.AddSwaggerGen(swagger =>
+            {
+                var contact = new Contact() { Name = SwaggerConfiguration.ContactName, Url = SwaggerConfiguration.ContactUrl };
+                swagger.SwaggerDoc(SwaggerConfiguration.DocNameV1,
+                                    new Info
+                                    {
+                                        Title = SwaggerConfiguration.DocInfoTitle,
+                                        Version = SwaggerConfiguration.DocInfoVersion,
+                                        Description = SwaggerConfiguration.DocInfoDescription,
+                                        Contact = contact
+                                    }
+                                    );
+            });
+
+            services.AddCors(options =>
+            {
+                options.AddPolicy("Todos",
+                builder => builder.WithOrigins("*").WithHeaders("*").WithMethods("*"));
+            });
+
+
 
             //services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             //services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
@@ -49,6 +84,16 @@ namespace EzDeal.Api
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+            // Enable middleware to serve generated Swagger as a JSON endpoint.
+            app.UseSwagger();
+
+            // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.), specifying the Swagger JSON endpoint.
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint(SwaggerConfiguration.EndpointUrl, SwaggerConfiguration.EndpointDescription);
+            });
+
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -58,8 +103,8 @@ namespace EzDeal.Api
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
-
-            app.UseHttpsRedirection();
+            app.UseCors("Todos");
+            //app.UseHttpsRedirection();
             app.UseMvc();
         }
     }

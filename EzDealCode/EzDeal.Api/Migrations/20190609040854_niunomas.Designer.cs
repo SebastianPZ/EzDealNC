@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EzDeal.Api.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20190608060745_init")]
-    partial class init
+    [Migration("20190609040854_niunomas")]
+    partial class niunomas
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -45,7 +45,7 @@ namespace EzDeal.Api.Migrations
 
                     b.HasIndex("servicioid");
 
-                    b.ToTable("AnuncioDb");
+                    b.ToTable("Anuncios");
                 });
 
             modelBuilder.Entity("EzDeal.Domain.Reseña", b =>
@@ -68,7 +68,7 @@ namespace EzDeal.Api.Migrations
 
                     b.HasIndex("clienteid");
 
-                    b.ToTable("ReseñaDb");
+                    b.ToTable("Reseñas");
                 });
 
             modelBuilder.Entity("EzDeal.Domain.Servicio", b =>
@@ -79,11 +79,14 @@ namespace EzDeal.Api.Migrations
 
                     b.Property<string>("descripcion");
 
-                    b.Property<string>("nombre");
+                    b.Property<string>("nombre")
+                        .IsRequired()
+                        .HasColumnName("Nombres")
+                        .HasMaxLength(50);
 
                     b.HasKey("id");
 
-                    b.ToTable("ServicioDb");
+                    b.ToTable("Servicios");
                 });
 
             modelBuilder.Entity("EzDeal.Domain.Solicitud", b =>
@@ -108,7 +111,7 @@ namespace EzDeal.Api.Migrations
 
                     b.HasIndex("clienteid");
 
-                    b.ToTable("SolicitudDb");
+                    b.ToTable("Solicitudes");
                 });
 
             modelBuilder.Entity("EzDeal.Domain.Usuario", b =>
@@ -137,7 +140,7 @@ namespace EzDeal.Api.Migrations
 
                     b.HasKey("id");
 
-                    b.ToTable("UsuarioDb");
+                    b.ToTable("Usuarios");
                 });
 
             modelBuilder.Entity("EzDeal.Domain.Anuncio", b =>

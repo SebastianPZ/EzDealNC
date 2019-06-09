@@ -46,3 +46,15 @@ E:\5to Ciclo\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Repository\obj\Debug\ne
 E:\5to Ciclo\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Repository\obj\Debug\netstandard2.0\EzDeal.Repository.csproj.CopyComplete
 E:\5to Ciclo\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Repository\obj\Debug\netstandard2.0\EzDeal.Repository.dll
 E:\5to Ciclo\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Repository\obj\Debug\netstandard2.0\EzDeal.Repository.pdb
+E:\5to Ciclo\Aplicaciones Web\Trabajo Final\EzDealNC\EzDealCode\EzDeal.Repository\obj\Debug\netstandard2.0\EzDeal.Repository.csprojAssemblyReference.cache
+E:\5to Ciclo\Aplicaciones Web\Trabajo Final\EzDealNC\EzDealCode\EzDeal.Repository\obj\Debug\netstandard2.0\EzDeal.Repository.csproj.CoreCompileInputs.cache
+E:\5to Ciclo\Aplicaciones Web\Trabajo Final\EzDealNC\EzDealCode\EzDeal.Repository\obj\Debug\netstandard2.0\EzDeal.Repository.AssemblyInfoInputs.cache
+E:\5to Ciclo\Aplicaciones Web\Trabajo Final\EzDealNC\EzDealCode\EzDeal.Repository\obj\Debug\netstandard2.0\EzDeal.Repository.AssemblyInfo.cs
+E:\5to Ciclo\Aplicaciones Web\Trabajo Final\EzDealNC\EzDealCode\EzDeal.Repository\bin\Debug\netstandard2.0\EzDeal.Repository.deps.json
+E:\5to Ciclo\Aplicaciones Web\Trabajo Final\EzDealNC\EzDealCode\EzDeal.Repository\bin\Debug\netstandard2.0\EzDeal.Repository.dll
+E:\5to Ciclo\Aplicaciones Web\Trabajo Final\EzDealNC\EzDealCode\EzDeal.Repository\bin\Debug\netstandard2.0\EzDeal.Repository.pdb
+E:\5to Ciclo\Aplicaciones Web\Trabajo Final\EzDealNC\EzDealCode\EzDeal.Repository\bin\Debug\netstandard2.0\EzDeal.Domain.dll
+E:\5to Ciclo\Aplicaciones Web\Trabajo Final\EzDealNC\EzDealCode\EzDeal.Repository\bin\Debug\netstandard2.0\EzDeal.Domain.pdb
+E:\5to Ciclo\Aplicaciones Web\Trabajo Final\EzDealNC\EzDealCode\EzDeal.Repository\obj\Debug\netstandard2.0\EzDeal.Repository.csproj.CopyComplete
+E:\5to Ciclo\Aplicaciones Web\Trabajo Final\EzDealNC\EzDealCode\EzDeal.Repository\obj\Debug\netstandard2.0\EzDeal.Repository.dll
+E:\5to Ciclo\Aplicaciones Web\Trabajo Final\EzDealNC\EzDealCode\EzDeal.Repository\obj\Debug\netstandard2.0\EzDeal.Repository.pdb

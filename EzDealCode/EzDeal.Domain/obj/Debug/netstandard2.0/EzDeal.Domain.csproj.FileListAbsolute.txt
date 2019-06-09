@@ -34,3 +34,12 @@ E:\5to Ciclo\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Domain\obj\Debug\netsta
 E:\5to Ciclo\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Domain\obj\Debug\netstandard2.0\EzDeal.Domain.dll
 E:\5to Ciclo\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Domain\obj\Debug\netstandard2.0\EzDeal.Domain.pdb
 E:\5to Ciclo\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Domain\obj\Debug\netstandard2.0\EzDeal.Domain.csprojAssemblyReference.cache
+E:\5to Ciclo\Aplicaciones Web\Trabajo Final\EzDealNC\EzDealCode\EzDeal.Domain\bin\Debug\netstandard2.0\EzDeal.Domain.deps.json
+E:\5to Ciclo\Aplicaciones Web\Trabajo Final\EzDealNC\EzDealCode\EzDeal.Domain\bin\Debug\netstandard2.0\EzDeal.Domain.dll
+E:\5to Ciclo\Aplicaciones Web\Trabajo Final\EzDealNC\EzDealCode\EzDeal.Domain\bin\Debug\netstandard2.0\EzDeal.Domain.pdb
+E:\5to Ciclo\Aplicaciones Web\Trabajo Final\EzDealNC\EzDealCode\EzDeal.Domain\obj\Debug\netstandard2.0\EzDeal.Domain.csproj.CoreCompileInputs.cache
+E:\5to Ciclo\Aplicaciones Web\Trabajo Final\EzDealNC\EzDealCode\EzDeal.Domain\obj\Debug\netstandard2.0\EzDeal.Domain.AssemblyInfoInputs.cache
+E:\5to Ciclo\Aplicaciones Web\Trabajo Final\EzDealNC\EzDealCode\EzDeal.Domain\obj\Debug\netstandard2.0\EzDeal.Domain.AssemblyInfo.cs
+E:\5to Ciclo\Aplicaciones Web\Trabajo Final\EzDealNC\EzDealCode\EzDeal.Domain\obj\Debug\netstandard2.0\EzDeal.Domain.dll
+E:\5to Ciclo\Aplicaciones Web\Trabajo Final\EzDealNC\EzDealCode\EzDeal.Domain\obj\Debug\netstandard2.0\EzDeal.Domain.pdb
+E:\5to Ciclo\Aplicaciones Web\Trabajo Final\EzDealNC\EzDealCode\EzDeal.Domain\obj\Debug\netstandard2.0\EzDeal.Domain.csprojAssemblyReference.cache

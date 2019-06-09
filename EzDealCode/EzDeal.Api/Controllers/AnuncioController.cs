@@ -8,19 +8,22 @@ using EzDeal.Domain;
 
 namespace EzDeal.Api.Controllers
 {
-    [Route("api/anuncios")]
+    [Route("api/[controller]")]
     [ApiController]
     public class AnuncioController : ControllerBase
     {
+
         private IAnuncioService anuncioService;
 
-        public AnuncioController(IAnuncioService anuncioService){
+        public AnuncioController(IAnuncioService anuncioService)
+        {
             this.anuncioService = anuncioService;
         }
 
         [HttpGet]
-        public ActionResult Get(){
-             return Ok(
+        public ActionResult Get()
+        {
+            return Ok(
                 anuncioService.GetAll()
             );
         }
@@ -28,8 +31,26 @@ namespace EzDeal.Api.Controllers
         [HttpPost]
         public ActionResult Post([FromBody] Anuncio anuncio)
         {
-            return Ok(anuncioService.Save(anuncio));
-        
+            return Ok(
+                anuncioService.Save(anuncio)
+            );
         }
+
+        [HttpPut]
+        public ActionResult Put([FromBody] Anuncio anuncio)
+        {
+            return Ok(
+                anuncioService.Update(anuncio)
+            );
+        }
+
+        [HttpDelete("{id}")]
+        public ActionResult Delete(int id)
+        {
+            return Ok(
+                anuncioService.Delete(id)
+            );
+        }
+
     }
 }

@@ -3,26 +3,26 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace EzDeal.Api.Migrations
 {
-    public partial class init : Migration
+    public partial class niunomas : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "ServicioDb",
+                name: "Servicios",
                 columns: table => new
                 {
                     id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    nombre = table.Column<string>(nullable: true),
+                    Nombres = table.Column<string>(maxLength: 50, nullable: false),
                     descripcion = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_ServicioDb", x => x.id);
+                    table.PrimaryKey("PK_Servicios", x => x.id);
                 });
 
             migrationBuilder.CreateTable(
-                name: "UsuarioDb",
+                name: "Usuarios",
                 columns: table => new
                 {
                     id = table.Column<int>(nullable: false)
@@ -38,11 +38,11 @@ namespace EzDeal.Api.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_UsuarioDb", x => x.id);
+                    table.PrimaryKey("PK_Usuarios", x => x.id);
                 });
 
             migrationBuilder.CreateTable(
-                name: "AnuncioDb",
+                name: "Anuncios",
                 columns: table => new
                 {
                     id = table.Column<int>(nullable: false)
@@ -57,17 +57,17 @@ namespace EzDeal.Api.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_AnuncioDb", x => x.id);
+                    table.PrimaryKey("PK_Anuncios", x => x.id);
                     table.ForeignKey(
-                        name: "FK_AnuncioDb_ServicioDb_servicioid",
+                        name: "FK_Anuncios_Servicios_servicioid",
                         column: x => x.servicioid,
-                        principalTable: "ServicioDb",
+                        principalTable: "Servicios",
                         principalColumn: "id",
                         onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateTable(
-                name: "ReseñaDb",
+                name: "Reseñas",
                 columns: table => new
                 {
                     id = table.Column<int>(nullable: false)
@@ -79,23 +79,23 @@ namespace EzDeal.Api.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_ReseñaDb", x => x.id);
+                    table.PrimaryKey("PK_Reseñas", x => x.id);
                     table.ForeignKey(
-                        name: "FK_ReseñaDb_AnuncioDb_anuncioid",
+                        name: "FK_Reseñas_Anuncios_anuncioid",
                         column: x => x.anuncioid,
-                        principalTable: "AnuncioDb",
+                        principalTable: "Anuncios",
                         principalColumn: "id",
                         onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
-                        name: "FK_ReseñaDb_UsuarioDb_clienteid",
+                        name: "FK_Reseñas_Usuarios_clienteid",
                         column: x => x.clienteid,
-                        principalTable: "UsuarioDb",
+                        principalTable: "Usuarios",
                         principalColumn: "id",
                         onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateTable(
-                name: "SolicitudDb",
+                name: "Solicitudes",
                 columns: table => new
                 {
                     id = table.Column<int>(nullable: false)
@@ -108,63 +108,63 @@ namespace EzDeal.Api.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_SolicitudDb", x => x.id);
+                    table.PrimaryKey("PK_Solicitudes", x => x.id);
                     table.ForeignKey(
-                        name: "FK_SolicitudDb_AnuncioDb_anuncioid",
+                        name: "FK_Solicitudes_Anuncios_anuncioid",
                         column: x => x.anuncioid,
-                        principalTable: "AnuncioDb",
+                        principalTable: "Anuncios",
                         principalColumn: "id",
                         onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
-                        name: "FK_SolicitudDb_UsuarioDb_clienteid",
+                        name: "FK_Solicitudes_Usuarios_clienteid",
                         column: x => x.clienteid,
-                        principalTable: "UsuarioDb",
+                        principalTable: "Usuarios",
                         principalColumn: "id",
                         onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_AnuncioDb_servicioid",
-                table: "AnuncioDb",
+                name: "IX_Anuncios_servicioid",
+                table: "Anuncios",
                 column: "servicioid");
 
             migrationBuilder.CreateIndex(
-                name: "IX_ReseñaDb_anuncioid",
-                table: "ReseñaDb",
+                name: "IX_Reseñas_anuncioid",
+                table: "Reseñas",
                 column: "anuncioid");
 
             migrationBuilder.CreateIndex(
-                name: "IX_ReseñaDb_clienteid",
-                table: "ReseñaDb",
+                name: "IX_Reseñas_clienteid",
+                table: "Reseñas",
                 column: "clienteid");
 
             migrationBuilder.CreateIndex(
-                name: "IX_SolicitudDb_anuncioid",
-                table: "SolicitudDb",
+                name: "IX_Solicitudes_anuncioid",
+                table: "Solicitudes",
                 column: "anuncioid");
 
             migrationBuilder.CreateIndex(
-                name: "IX_SolicitudDb_clienteid",
-                table: "SolicitudDb",
+                name: "IX_Solicitudes_clienteid",
+                table: "Solicitudes",
                 column: "clienteid");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "ReseñaDb");
+                name: "Reseñas");
 
             migrationBuilder.DropTable(
-                name: "SolicitudDb");
+                name: "Solicitudes");
 
             migrationBuilder.DropTable(
-                name: "AnuncioDb");
+                name: "Anuncios");
 
             migrationBuilder.DropTable(
-                name: "UsuarioDb");
+                name: "Usuarios");
 
             migrationBuilder.DropTable(
-                name: "ServicioDb");
+                name: "Servicios");
         }
     }
 }

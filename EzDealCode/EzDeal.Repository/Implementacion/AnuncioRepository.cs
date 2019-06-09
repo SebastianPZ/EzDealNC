@@ -6,29 +6,21 @@ using EzDeal.Repository.Context;
 
 namespace EzDeal.Repository.Implementacion
 {
-    public class AnuncioRepository : IAnuncioRepository
+   public class AnuncioRepository : IAnuncioRepository
     {
 
         private ApplicationDbContext context;
 
-         public AnuncioRepository(ApplicationDbContext context){
-           this.context = context;
-         }
-         public void Save(Anuncio entity){
-           context.AnuncioDb.Add(entity);
-           context.SaveChanges();
-         }
-         public void Update(Anuncio entity){
-
-         }
-         public void Delete(Anuncio entity){
-
-         }
-         public IEnumerable<Anuncio> FindAll(){
-            var result = new List<Anuncio>();
+        public AnuncioRepository(ApplicationDbContext context)
+        {
+            this.context = context;
+        }
+        public Anuncio Get(int id)
+        {
+            var result = new Anuncio();
             try
             {
-                result = context.AnuncioDb.ToList();
+                result = context.Anuncios.Single(x => x.id == id);
             }
 
             catch (System.Exception)
@@ -37,9 +29,49 @@ namespace EzDeal.Repository.Implementacion
                 throw;
             }
             return result;
-         }
-         public Anuncio FindById(int id){
-           return null;
-         }
+        }
+
+        public IEnumerable<Anuncio> GetAll()
+        {
+
+            var result = new List<Anuncio>();
+            try
+            {
+                result = context.Anuncios.ToList();
+            }
+
+            catch (System.Exception)
+            {
+
+                throw;
+            }
+            return result;
+        }
+
+        public bool Save(Anuncio entity)
+        {
+            try
+            {
+                context.Add(entity);
+                context.SaveChanges();
+            }
+            catch (System.Exception)
+            {
+
+                return false;
+            }
+            return true;
+        }
+
+        public bool Update(Anuncio entity)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public bool Delete(int id)
+        {
+            throw new System.NotImplementedException();
+        }
+
     }
 }

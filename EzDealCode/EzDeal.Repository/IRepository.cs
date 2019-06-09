@@ -4,11 +4,11 @@ namespace EzDeal.Repository
 {
     public interface IRepository<T>
     {
-         void Save(T entity);
-         void Update(T entity);
-         void Delete(T entity);
-         IEnumerable<T> FindAll();
-         T FindById(int id);
+        bool  Save(T entity);
+        bool  Update(T entity);
+        bool  Delete(int id);
+        IEnumerable<T> GetAll();
+        T Get(int id);
 
     }
 }
