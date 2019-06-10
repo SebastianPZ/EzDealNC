@@ -94,7 +94,7 @@ export default {
         { text: "Nombre", value: "nombre"},
         { text: "Apellido", value: "apellido" },
         { text: "Email", value: "email" },
-        { text: "Contraseño", value: "contraseña" },
+        { text: "Contraseña", value: "contraseña" },
         { text: "Url_contacto", value: "url_contacto"},
         { text: "Telefono", value: "telefono" },
         { text: "Rol", value: "rol"},
@@ -148,6 +148,7 @@ export default {
       this.nombre = item.nombre;
       this.apellido = item.apellido;
       this.email = item.email;
+      this.contraseña = item.contraseña;
       this.url_contacto = item.url_contacto;
       this.telefono = item.telefono;
       this.rol = item.rol;
@@ -167,6 +168,7 @@ export default {
       this.nombre = "";
       this.apellido = "";
       this.email = "";
+      this.contraseña = "";
       this.url_contacto = "";
       this.telefono = "";
       this.rol = "";
@@ -184,6 +186,7 @@ export default {
             nombre: me.nombre,
             apellido : me.apellido,
             email : me.email,
+            contraseña : me.contraseña,
             url_contacto: me.url_contacto,
             telefono : me.telefono,
             rol : me.rol,
@@ -205,6 +208,7 @@ export default {
             nombre: me.nombre,
             apellido : me.apellido,
             email : me.email,
+            contraseña : me.contraseña,
             url_contacto : me.url_contacto,
             telefono : me.telefono,
             rol : me.rol,
