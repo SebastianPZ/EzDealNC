@@ -106,10 +106,14 @@ export default {
       costo_servicio : "",
       servicio_id : "",
       esta_habilitado : "",
-      valoracion: ""
+      valoracion: "",
+      servicio : { nombre=""}
 
 
 
+    },
+    {
+      
     };
   },
   computed: {
@@ -130,9 +134,7 @@ export default {
   methods: {
     listar() {
       let me = this;
-      axios
-        .get("api/anuncio")
-        .then(function(response) {
+      axios.get("api/anuncio").then(function(response) {
           //console.log(response);
           me.anuncios = response.data;
         })

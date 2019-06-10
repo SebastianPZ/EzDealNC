@@ -3,29 +3,10 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace EzDeal.Api.Migrations
 {
-    public partial class xd : Migration
+    public partial class init : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.CreateTable(
-                name: "Anuncios",
-                columns: table => new
-                {
-                    id = table.Column<int>(nullable: false)
-                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    anunciante_id = table.Column<int>(nullable: false),
-                    titulo = table.Column<string>(nullable: true),
-                    descripcion = table.Column<string>(nullable: true),
-                    costo_servicio = table.Column<int>(nullable: false),
-                    servicio_id = table.Column<int>(nullable: false),
-                    esta_habilitado = table.Column<int>(nullable: false),
-                    valoracion = table.Column<float>(nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Anuncios", x => x.id);
-                });
-
             migrationBuilder.CreateTable(
                 name: "Servicios",
                 columns: table => new
@@ -58,6 +39,31 @@ namespace EzDeal.Api.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Usuarios", x => x.id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Anuncios",
+                columns: table => new
+                {
+                    id = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    anunciante_id = table.Column<int>(nullable: false),
+                    titulo = table.Column<string>(nullable: true),
+                    descripcion = table.Column<string>(nullable: true),
+                    costo_servicio = table.Column<int>(nullable: false),
+                    servicio_id = table.Column<int>(nullable: false),
+                    esta_habilitado = table.Column<int>(nullable: false),
+                    valoracion = table.Column<float>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Anuncios", x => x.id);
+                    table.ForeignKey(
+                        name: "FK_Anuncios_Servicios_servicio_id",
+                        column: x => x.servicio_id,
+                        principalTable: "Servicios",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -118,6 +124,11 @@ namespace EzDeal.Api.Migrations
                 });
 
             migrationBuilder.CreateIndex(
+                name: "IX_Anuncios_servicio_id",
+                table: "Anuncios",
+                column: "servicio_id");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Reseñas_anuncioid",
                 table: "Reseñas",
                 column: "anuncioid");
@@ -144,9 +155,6 @@ namespace EzDeal.Api.Migrations
                 name: "Reseñas");
 
             migrationBuilder.DropTable(
-                name: "Servicios");
-
-            migrationBuilder.DropTable(
                 name: "Solicitudes");
 
             migrationBuilder.DropTable(
@@ -154,6 +162,9 @@ namespace EzDeal.Api.Migrations
 
             migrationBuilder.DropTable(
                 name: "Usuarios");
+
+            migrationBuilder.DropTable(
+                name: "Servicios");
         }
     }
 }

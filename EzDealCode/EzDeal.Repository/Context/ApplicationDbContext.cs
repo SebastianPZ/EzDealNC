@@ -25,6 +25,11 @@ namespace EzDeal.Repository.Context
                     .HasColumnName("Nombres")
                     .HasMaxLength(50)
                     .IsRequired();
+
+             modelBuilder.Entity<Anuncio>()
+                .HasOne(p => p.servicio)
+                .WithMany(b => b.Anuncios)
+                .HasForeignKey(p => p.servicio_id);       
                     
         }
     }

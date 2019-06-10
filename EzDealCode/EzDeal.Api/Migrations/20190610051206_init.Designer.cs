@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EzDeal.Api.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20190610001204_xd")]
-    partial class xd
+    [Migration("20190610051206_init")]
+    partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -42,6 +42,8 @@ namespace EzDeal.Api.Migrations
                     b.Property<float>("valoracion");
 
                     b.HasKey("id");
+
+                    b.HasIndex("servicio_id");
 
                     b.ToTable("Anuncios");
                 });
@@ -139,6 +141,14 @@ namespace EzDeal.Api.Migrations
                     b.HasKey("id");
 
                     b.ToTable("Usuarios");
+                });
+
+            modelBuilder.Entity("EzDeal.Domain.Anuncio", b =>
+                {
+                    b.HasOne("EzDeal.Domain.Servicio", "servicio")
+                        .WithMany("Anuncios")
+                        .HasForeignKey("servicio_id")
+                        .OnDelete(DeleteBehavior.Cascade);
                 });
 
             modelBuilder.Entity("EzDeal.Domain.Reseña", b =>

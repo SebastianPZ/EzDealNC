@@ -75,7 +75,7 @@ export default {
 
       //Model
       id: "",
-      nombres: "",
+      nombre: "",
       descripcion: ""
     };
   },

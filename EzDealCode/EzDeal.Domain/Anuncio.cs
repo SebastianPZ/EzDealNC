@@ -11,7 +11,10 @@ namespace EzDeal.Domain
         public int costo_servicio {get; set;}
         public int servicio_id {get; set;}
         public int esta_habilitado {get; set;}
+
         public float valoracion {get; set;}
+
+        public Servicio servicio {get;set;}
 
     }
 }
