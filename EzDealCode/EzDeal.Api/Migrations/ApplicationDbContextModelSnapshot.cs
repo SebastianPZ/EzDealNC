@@ -33,15 +33,13 @@ namespace EzDeal.Api.Migrations
 
                     b.Property<int>("esta_habilitado");
 
-                    b.Property<int?>("servicioid");
+                    b.Property<int>("servicio_id");
 
                     b.Property<string>("titulo");
 
                     b.Property<float>("valoracion");
 
                     b.HasKey("id");
-
-                    b.HasIndex("servicioid");
 
                     b.ToTable("Anuncios");
                 });
@@ -139,13 +137,6 @@ namespace EzDeal.Api.Migrations
                     b.HasKey("id");
 
                     b.ToTable("Usuarios");
-                });
-
-            modelBuilder.Entity("EzDeal.Domain.Anuncio", b =>
-                {
-                    b.HasOne("EzDeal.Domain.Servicio", "servicio")
-                        .WithMany()
-                        .HasForeignKey("servicioid");
                 });
 
             modelBuilder.Entity("EzDeal.Domain.Reseña", b =>

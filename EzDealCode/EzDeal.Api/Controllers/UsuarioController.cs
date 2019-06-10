@@ -8,7 +8,7 @@ using EzDeal.Domain;
 
 namespace EzDeal.Api.Controllers
 {
-    [Route("api/usuarios")]
+    [Route("api/[controller]")]
     [ApiController]
     public class UsuarioController : ControllerBase
     {

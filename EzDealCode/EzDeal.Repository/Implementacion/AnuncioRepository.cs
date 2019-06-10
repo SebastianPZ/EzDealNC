@@ -65,7 +65,30 @@ namespace EzDeal.Repository.Implementacion
 
         public bool Update(Anuncio entity)
         {
-            throw new System.NotImplementedException();
+            try
+            {
+                 var usuarioOrigina = context.Anuncios.Single(
+                     x => x.id == entity.id
+                 );
+
+                 usuarioOrigina.id=entity.id;
+                 usuarioOrigina.anunciante_id = entity.anunciante_id;
+                 usuarioOrigina.titulo = entity.titulo;
+                 usuarioOrigina.descripcion = entity.descripcion;
+                 usuarioOrigina.costo_servicio = entity.costo_servicio;
+                 usuarioOrigina.servicio_id = entity.servicio_id;
+                 usuarioOrigina.esta_habilitado = entity.esta_habilitado;
+                 usuarioOrigina.valoracion = entity.valoracion;
+
+                 context.Update(usuarioOrigina);
+                 context.SaveChanges();
+            }
+            catch (System.Exception)
+            {
+                
+                return false;
+            }
+            return true;
         }
 
         public bool Delete(int id)
