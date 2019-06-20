@@ -76,7 +76,7 @@ namespace EzDeal.Repository.Implementacion
                  usuarioOrigina.titulo = entity.titulo;
                  usuarioOrigina.descripcion = entity.descripcion;
                  usuarioOrigina.costo_servicio = entity.costo_servicio;
-                 usuarioOrigina.servicio_id = entity.servicio_id;
+                 usuarioOrigina.servicio = entity.servicio;
                  usuarioOrigina.esta_habilitado = entity.esta_habilitado;
                  usuarioOrigina.valoracion = entity.valoracion;
 

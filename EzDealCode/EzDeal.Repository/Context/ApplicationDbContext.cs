@@ -7,7 +7,6 @@ namespace EzDeal.Repository.Context
     {
         public DbSet<Usuario> Usuarios {get; set;}
         public DbSet<Anuncio> Anuncios {get; set;}
-        public DbSet<Servicio> Servicios {get; set;}
         public DbSet<Solicitud> Solicitudes{get; set;}
         public DbSet<Reseña> Reseñas {get; set;}
         //public DbSet<HorarioAtencion> HorarioAtencion {get; set;}
@@ -20,16 +19,16 @@ namespace EzDeal.Repository.Context
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Servicio>()
-                    .Property(p => p.nombre)
-                    .HasColumnName("Nombres")
+            modelBuilder.Entity<Anuncio>()
+                    .Property(p => p.titulo)
+                    .HasColumnName("titulo")
                     .HasMaxLength(50)
                     .IsRequired();
 
-             modelBuilder.Entity<Anuncio>()
-                .HasOne(p => p.servicio)
+             /* modelBuilder.Entity<Anuncio>()
+               .HasOne(p => p.servicio)
                 .WithMany(b => b.Anuncios)
-                .HasForeignKey(p => p.servicio_id);       
+                .HasForeignKey(p => p.servicio_id);   */
                     
         }
     }

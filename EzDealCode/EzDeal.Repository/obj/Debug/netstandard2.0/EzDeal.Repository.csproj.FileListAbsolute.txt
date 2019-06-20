@@ -58,3 +58,15 @@ E:\5to Ciclo\Aplicaciones Web\Trabajo Final\EzDealNC\EzDealCode\EzDeal.Repositor
 E:\5to Ciclo\Aplicaciones Web\Trabajo Final\EzDealNC\EzDealCode\EzDeal.Repository\obj\Debug\netstandard2.0\EzDeal.Repository.csproj.CopyComplete
 E:\5to Ciclo\Aplicaciones Web\Trabajo Final\EzDealNC\EzDealCode\EzDeal.Repository\obj\Debug\netstandard2.0\EzDeal.Repository.dll
 E:\5to Ciclo\Aplicaciones Web\Trabajo Final\EzDealNC\EzDealCode\EzDeal.Repository\obj\Debug\netstandard2.0\EzDeal.Repository.pdb
+E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Repository\obj\Debug\netstandard2.0\EzDeal.Repository.csprojAssemblyReference.cache
+E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Repository\obj\Debug\netstandard2.0\EzDeal.Repository.csproj.CoreCompileInputs.cache
+E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Repository\obj\Debug\netstandard2.0\EzDeal.Repository.AssemblyInfoInputs.cache
+E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Repository\obj\Debug\netstandard2.0\EzDeal.Repository.AssemblyInfo.cs
+E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Repository\obj\Debug\netstandard2.0\EzDeal.Repository.dll
+E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Repository\obj\Debug\netstandard2.0\EzDeal.Repository.pdb
+E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Repository\bin\Debug\netstandard2.0\EzDeal.Repository.deps.json
+E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Repository\bin\Debug\netstandard2.0\EzDeal.Repository.dll
+E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Repository\bin\Debug\netstandard2.0\EzDeal.Repository.pdb
+E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Repository\bin\Debug\netstandard2.0\EzDeal.Domain.dll
+E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Repository\bin\Debug\netstandard2.0\EzDeal.Domain.pdb
+E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Repository\obj\Debug\netstandard2.0\EzDeal.Repository.csproj.CopyComplete

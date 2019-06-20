@@ -103,3 +103,24 @@ E:\5to Ciclo\Aplicaciones Web\Trabajo Final\EzDealNC\EzDealCode\EzDeal.Api\obj\D
 E:\5to Ciclo\Aplicaciones Web\Trabajo Final\EzDealNC\EzDealCode\EzDeal.Api\obj\Debug\netcoreapp2.2\EzDeal.Api.csproj.CopyComplete
 E:\5to Ciclo\Aplicaciones Web\Trabajo Final\EzDealNC\EzDealCode\EzDeal.Api\obj\Debug\netcoreapp2.2\EzDeal.Api.dll
 E:\5to Ciclo\Aplicaciones Web\Trabajo Final\EzDealNC\EzDealCode\EzDeal.Api\obj\Debug\netcoreapp2.2\EzDeal.Api.pdb
+E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.api\obj\Debug\netcoreapp2.2\EzDeal.Api.dll
+E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.api\obj\Debug\netcoreapp2.2\EzDeal.Api.pdb
+E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.api\bin\Debug\netcoreapp2.2\EzDeal.Api.deps.json
+E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.api\bin\Debug\netcoreapp2.2\EzDeal.Api.runtimeconfig.json
+E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.api\bin\Debug\netcoreapp2.2\EzDeal.Api.runtimeconfig.dev.json
+E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.api\bin\Debug\netcoreapp2.2\EzDeal.Api.dll
+E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.api\bin\Debug\netcoreapp2.2\EzDeal.Api.pdb
+E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.api\bin\Debug\netcoreapp2.2\EzDeal.Domain.dll
+E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.api\bin\Debug\netcoreapp2.2\EzDeal.Repository.dll
+E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.api\bin\Debug\netcoreapp2.2\EzDeal.Service.dll
+E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.api\bin\Debug\netcoreapp2.2\EzDeal.Domain.pdb
+E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.api\bin\Debug\netcoreapp2.2\EzDeal.Service.pdb
+E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.api\bin\Debug\netcoreapp2.2\EzDeal.Repository.pdb
+E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.api\obj\Debug\netcoreapp2.2\EzDeal.Api.csprojAssemblyReference.cache
+E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.api\obj\Debug\netcoreapp2.2\EzDeal.Api.csproj.CoreCompileInputs.cache
+E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.api\obj\Debug\netcoreapp2.2\EzDeal.Api.RazorAssemblyInfo.cache
+E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.api\obj\Debug\netcoreapp2.2\EzDeal.Api.RazorAssemblyInfo.cs
+E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.api\obj\Debug\netcoreapp2.2\EzDeal.Api.AssemblyInfoInputs.cache
+E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.api\obj\Debug\netcoreapp2.2\EzDeal.Api.AssemblyInfo.cs
+E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.api\obj\Debug\netcoreapp2.2\EzDeal.Api.RazorTargetAssemblyInfo.cache
+E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.api\obj\Debug\netcoreapp2.2\EzDeal.Api.csproj.CopyComplete

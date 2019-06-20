@@ -33,15 +33,16 @@ namespace EzDeal.Api.Migrations
 
                     b.Property<int>("esta_habilitado");
 
-                    b.Property<int>("servicio_id");
+                    b.Property<string>("servicio");
 
-                    b.Property<string>("titulo");
+                    b.Property<string>("titulo")
+                        .IsRequired()
+                        .HasColumnName("titulo")
+                        .HasMaxLength(50);
 
                     b.Property<float>("valoracion");
 
                     b.HasKey("id");
-
-                    b.HasIndex("servicio_id");
 
                     b.ToTable("Anuncios");
                 });
@@ -67,24 +68,6 @@ namespace EzDeal.Api.Migrations
                     b.HasIndex("clienteid");
 
                     b.ToTable("Reseñas");
-                });
-
-            modelBuilder.Entity("EzDeal.Domain.Servicio", b =>
-                {
-                    b.Property<int>("id")
-                        .ValueGeneratedOnAdd()
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("descripcion");
-
-                    b.Property<string>("nombre")
-                        .IsRequired()
-                        .HasColumnName("Nombres")
-                        .HasMaxLength(50);
-
-                    b.HasKey("id");
-
-                    b.ToTable("Servicios");
                 });
 
             modelBuilder.Entity("EzDeal.Domain.Solicitud", b =>
@@ -139,14 +122,6 @@ namespace EzDeal.Api.Migrations
                     b.HasKey("id");
 
                     b.ToTable("Usuarios");
-                });
-
-            modelBuilder.Entity("EzDeal.Domain.Anuncio", b =>
-                {
-                    b.HasOne("EzDeal.Domain.Servicio", "servicio")
-                        .WithMany("Anuncios")
-                        .HasForeignKey("servicio_id")
-                        .OnDelete(DeleteBehavior.Cascade);
                 });
 
             modelBuilder.Entity("EzDeal.Domain.Reseña", b =>

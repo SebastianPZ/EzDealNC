@@ -25,7 +25,7 @@
               <v-container grid-list-md>
                 <v-layout wrap>
                   <v-flex xs12 sm12 md12>
-                    <v-text-field v-model="anunciante_id" label="Anunciante_ID"></v-text-field>
+                    <v-text-field v-model="anunciante_id" label="Anunciante"></v-text-field>
                   </v-flex>
                   <v-flex xs12 sm12 md12>
                     <v-text-field v-model="titulo" label="Titulo"></v-text-field>
@@ -34,13 +34,13 @@
                     <v-text-field v-model="descripcion" label="Descripcion"></v-text-field>
                   </v-flex>
                   <v-flex xs12 sm12 md12>
-                    <v-text-field v-model="costo_servicio" label="Costo del Servicio"></v-text-field>
+                    <v-text-field v-model="costo_servicio" label="Costo_Servicio (S/.)"></v-text-field>
                   </v-flex>
                   <v-flex xs12 sm12 md12>
-                    <v-text-field v-model="servicio_id" label="Servicio"></v-text-field>
+                    <v-combobox v-model="servicio" :items="items" label="Servicio"></v-combobox>
                   </v-flex>
                   <v-flex xs12 sm12 md12>
-                    <v-text-field v-model="esta_habilitado" label="Esta_habilitado"></v-text-field>
+                    <v-text-field v-model="esta_habilitado" label="Esta_Habilitado"></v-text-field>
                   </v-flex>
                   <v-flex xs12 sm12 md12>
                     <v-text-field v-model="valoracion" label="Valoracion"></v-text-field>
@@ -67,7 +67,7 @@
           <td>{{ props.item.titulo }}</td>
           <td>{{ props.item.descripcion }}</td>
           <td>{{ props.item.costo_servicio }}</td>
-          <td>{{ props.item.servicio_id }}</td>
+          <td>{{ props.item.servicio }}</td>
           <td>{{ props.item.esta_habilitado }}</td>
           <td>{{ props.item.valoracion }}</td>
         </template>
@@ -84,15 +84,16 @@ export default {
   data() {
     return {
       anuncios: [],
+      items: ["Albañil","Medico","Psicologo","Danza"],
       dialog: false,
       headers: [
         { text: "Opciones", value: "opciones", sortable: false },
         { text: "Anunciante_ID", value: "anunciante_id"},
-        { text: "Titulo", value: "titulo"},
-        { text: "Descripcion", value: "descripcion"},
-        { text: "Costo_Servicio", value: "costo_servicio"},
-        { text: "Servicio_ID", value: "servicio_id"},
-        { text: "Esta_habilitado", value: "esta_habilitado"},
+        { text: "Titulo", value: "titulo" },
+        { text: "Descripcion", value: "descripcion" },
+        { text: "Costo_servicio", value: "costo_servicio" },
+        { text: "Servicio", value: "servicio" },
+        { text: "Esta_Habilitado", value: "esta_habilitado" },
         { text: "Valoracion", value: "valoracion" }
       ],
       search: "",
@@ -103,22 +104,15 @@ export default {
       anunciante_id: "",
       titulo: "",
       descripcion: "",
-      costo_servicio : "",
-      servicio_id : "",
-      esta_habilitado : "",
-      valoracion: "",
-      servicio : { nombre=""}
-
-
-
-    },
-    {
-      
+      costo_servicio: "",
+      servicio: "",
+      esta_habilitado: "",
+      valoracion: ""
     };
   },
   computed: {
     formTitle() {
-      return this.editedIndex === -1 ? "Nuevo Anuncio" : "Actualizar Anuncio";
+      return this.editedIndex === -1 ? "Nuevo Servicio" : "Actualizar Servicio";
     }
   },
 
@@ -134,7 +128,9 @@ export default {
   methods: {
     listar() {
       let me = this;
-      axios.get("api/anuncio").then(function(response) {
+      axios
+        .get("api/anuncio")
+        .then(function(response) {
           //console.log(response);
           me.anuncios = response.data;
         })
@@ -148,9 +144,10 @@ export default {
       this.titulo = item.titulo;
       this.descripcion = item.descripcion;
       this.costo_servicio = item.costo_servicio;
-      this.servicio_id = item.servicio_id;
+      this.servicio = item.servicio;
       this.esta_habilitado = item.esta_habilitado;
       this.valoracion = item.valoracion;
+
 
       this.editedIndex = 1;
       this.dialog = true;
@@ -167,10 +164,9 @@ export default {
       this.titulo = "";
       this.descripcion = "";
       this.costo_servicio = "";
-      this.servicio_id ="";
+      this.servicio = "";
       this.esta_habilitado = "";
       this.valoracion = "";
-
     },
     guardar() {
       if (this.editedIndex > -1) {
@@ -180,13 +176,13 @@ export default {
         axios 
           .put("api/anuncio", {
             id: me.id,
-            anunciante_id : me.anunciante_id,
-            titulo : me.titulo,
-            descripcion : me.descripcion,
-            costo_servicio : me.costo_servicio,
-            servicio_id : me.servicio_id,
-            esta_habilitado : me.esta_habilitado,
-            valoracion : me.valoracion
+            anunciante_id: me.anunciante_id,
+            titulo: me.titulo,
+            descripcion: me.descripcion,
+            costo_servicio: me.costo_servicio,
+            servicio: me.servicio,
+            esta_habilitado: me.esta_habilitado,
+            valoracion: me.valoracion
           })
           .then(function(response) {
             me.close();
@@ -201,13 +197,14 @@ export default {
         let me = this;
         axios
           .post("api/anuncio", {
-            anunciante_id : me.anunciante_id,
-            titulo : me.titulo,
+            anunciante_id: me.anunciante_id,
+            titulo: me.titulo,
             descripcion: me.descripcion,
-            costo_servicio : me.costo_servicio,
-            servicio_id : me.servicio_id,
-            esta_habilitado : me.esta_habilitado,
-            valoracion : me.valoracion
+            costo_servicio: me.costo_servicio,
+            servicio: me.servicio,
+            esta_habilitado: me.esta_habilitado,
+            valoracion: me.valoracion,
+
           })
           .then(function(response) {
             me.close();

@@ -44,9 +44,6 @@ namespace EzDeal.Api
             services.AddTransient<IReseñaRepository, ReseñaRepository>();
             services.AddTransient<IReseñaService, ReseñaService>();
 
-            services.AddTransient<IServicioRepository, ServicioRepository>();
-            services.AddTransient<IServicioService, ServicioService>();
-
             services.AddTransient<ISolicitudRepository, SolicitudRepository>();
             services.AddTransient<ISolicitudService, SolicitudService>();
 

@@ -68,3 +68,17 @@ E:\5to Ciclo\Aplicaciones Web\Trabajo Final\EzDealNC\EzDealCode\EzDeal.Service\o
 E:\5to Ciclo\Aplicaciones Web\Trabajo Final\EzDealNC\EzDealCode\EzDeal.Service\obj\Debug\netstandard2.0\EzDeal.Service.csproj.CopyComplete
 E:\5to Ciclo\Aplicaciones Web\Trabajo Final\EzDealNC\EzDealCode\EzDeal.Service\obj\Debug\netstandard2.0\EzDeal.Service.dll
 E:\5to Ciclo\Aplicaciones Web\Trabajo Final\EzDealNC\EzDealCode\EzDeal.Service\obj\Debug\netstandard2.0\EzDeal.Service.pdb
+E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Service\obj\Debug\netstandard2.0\EzDeal.Service.dll
+E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Service\obj\Debug\netstandard2.0\EzDeal.Service.pdb
+E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Service\bin\Debug\netstandard2.0\EzDeal.Service.deps.json
+E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Service\bin\Debug\netstandard2.0\EzDeal.Service.dll
+E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Service\bin\Debug\netstandard2.0\EzDeal.Service.pdb
+E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Service\bin\Debug\netstandard2.0\EzDeal.Domain.dll
+E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Service\bin\Debug\netstandard2.0\EzDeal.Repository.dll
+E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Service\bin\Debug\netstandard2.0\EzDeal.Repository.pdb
+E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Service\bin\Debug\netstandard2.0\EzDeal.Domain.pdb
+E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Service\obj\Debug\netstandard2.0\EzDeal.Service.csprojAssemblyReference.cache
+E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Service\obj\Debug\netstandard2.0\EzDeal.Service.csproj.CoreCompileInputs.cache
+E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Service\obj\Debug\netstandard2.0\EzDeal.Service.AssemblyInfoInputs.cache
+E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Service\obj\Debug\netstandard2.0\EzDeal.Service.AssemblyInfo.cs
+E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealNC\EzDealCode\EzDeal.Service\obj\Debug\netstandard2.0\EzDeal.Service.csproj.CopyComplete
