@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EzDeal.Api.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20190620045533_init")]
-    partial class init
+    [Migration("20190627053956_primera")]
+    partial class primera
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -112,10 +112,6 @@ namespace EzDeal.Api.Migrations
                     b.Property<string>("email");
 
                     b.Property<string>("nombre");
-
-                    b.Property<string>("rol")
-                        .IsRequired()
-                        .HasConversion(new ValueConverter<string, string>(v => default(string), v => default(string), new ConverterMappingHints(size: 1)));
 
                     b.Property<string>("telefono");
 

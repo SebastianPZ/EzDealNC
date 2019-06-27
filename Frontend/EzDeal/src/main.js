@@ -3,6 +3,9 @@ import './plugins/vuetify'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import Login from './components/Login.vue'
+import Registro from './components/Registro.vue'
+
 
 import axios from 'axios'
 

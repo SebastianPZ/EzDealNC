@@ -78,7 +78,6 @@ namespace EzDeal.Repository.Implementacion
                  usuarioOrigina.apellido=entity.apellido;
                  usuarioOrigina.url_contacto = entity.url_contacto;
                  usuarioOrigina.telefono=entity.telefono;
-                 usuarioOrigina.rol= entity.rol;
                  usuarioOrigina.distrito = entity.distrito;
 
                  context.Update(usuarioOrigina);

@@ -111,10 +111,6 @@ namespace EzDeal.Api.Migrations
 
                     b.Property<string>("nombre");
 
-                    b.Property<string>("rol")
-                        .IsRequired()
-                        .HasConversion(new ValueConverter<string, string>(v => default(string), v => default(string), new ConverterMappingHints(size: 1)));
-
                     b.Property<string>("telefono");
 
                     b.Property<string>("url_contacto");

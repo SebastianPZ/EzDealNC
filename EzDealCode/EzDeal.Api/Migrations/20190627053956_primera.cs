@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace EzDeal.Api.Migrations
 {
-    public partial class init : Migration
+    public partial class primera : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -38,7 +38,6 @@ namespace EzDeal.Api.Migrations
                     apellido = table.Column<string>(nullable: true),
                     url_contacto = table.Column<string>(nullable: true),
                     telefono = table.Column<string>(nullable: true),
-                    rol = table.Column<string>(nullable: false),
                     distrito = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
